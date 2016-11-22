@@ -1,0 +1,75 @@
+/*
+* Developer: 
+** Rilind Pozhegu
+*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('../fonts/Montserrat-ExtraBold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url('../fonts/Montserrat-ExtraLight.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+.active{
+  color: #ea3f52 !important;
+}
+
+/*======================*/
+/*       My Style       */
+/*======================*/
+
+
+/*Navigation Bar*/
+.navigationbar-bg-color-c {
+  background-color: white !important;
+  color: blue !important;
+}
+
+.navigationbar-bg-color-c a {
+  color: #1f80aa !important; 
+}
+
+
+
+
+
+
+
+
+/* Mpas*/
+.map-section {
+  margin-bottom: -5px;
+}
+.map-section iframe{
+  margin-top: 90px;
+}
+
+
+
+
+/*Contact Form*/
+.contact-section {
+  background-image: url('../images/contact-bg-p-01.png') !important; 
+  text-align: left !important;
+}
+.footer-title {
+  padding-left: 30px;
+  text-align: left;
+}

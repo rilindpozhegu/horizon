@@ -452,3 +452,10 @@
 }
 
 /*# sourceMappingURL=cards.css.map */
+
+
+.navigationbar-bg-color {
+  background: rgba(0, 0, 0, 0.33);
+  margin: 0px;
+  padding-top: 35px; 
+}
