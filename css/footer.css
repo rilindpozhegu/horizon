@@ -1,0 +1,71 @@
+/*====================*/
+/*       FONTS        */
+/*====================*/
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('../fonts/Montserrat-ExtraBold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url('../fonts/Montserrat-ExtraLight.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+/*===========================*/
+/*        My Changes         */
+/*===========================*/
+
+.footer-section {
+  background-color: #1f80aa;
+  color: white;
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+.footer-section i {
+  padding: 0px 20px;
+}
+
+.copyright-section {
+  text-align: left;
+}
+
+.social-section {
+  text-align: right;
+}
+
+
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+    .fh5co-cover .fh5co-cover-text .full-height .fh5co-cover-intro {
+      display: table-cell;
+      vertical-align: middle;
+      min-height: 800px;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .social-section {
+      text-align: center;
+    }
+}

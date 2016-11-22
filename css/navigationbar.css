@@ -73,6 +73,20 @@ Primary style
 Main components 
 
 -------------------------------- */
+
+.cd-nav-trigger {
+    top: 22px;
+    /* right: 5%; */
+    left: 7%;
+    height: 44px;
+    width: 44px;
+    z-index: 10 !important;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+
 .cd-logo, .cd-nav-trigger {
   position: fixed;
   display: inline-block;

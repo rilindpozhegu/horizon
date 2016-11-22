@@ -57,10 +57,6 @@ a:hover, a:focus, a:active {
   position: relative;
   min-height: 800px;
 }
-.fh5co-cover .fh5co-cover-text {
-  position: relative;
-  z-index: 5;
-}
 .fh5co-cover .fh5co-cover-text .full-height {
   display: table;
   min-height: 800px;
@@ -83,16 +79,6 @@ a:hover, a:focus, a:active {
 .fh5co-cover-style-1 img {
   width: 500px;
 }
-.fh5co-cover-style-1 > .fh5co-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /*background: rgba(0, 0, 0, 0.6);*/
-  z-index: 4;
-}
-
 .header-buttons {
   padding: 30px 0px;
 }
@@ -262,7 +248,7 @@ a:hover, a:focus, a:active {
 /*===========================*/
 
 .blog_section {
-  padding: 50px 0px;
+  padding: 80px 0px;
 }
 .blog_sectiontitle {
   text-align: center;
@@ -310,6 +296,18 @@ a:hover, a:focus, a:active {
   border-right: solid 1px #cccccc;
 }
 /*Blog mobile*/
+.blog-mobile-part {
+  padding: 30px 0px;
+}
+.blog-mobile-part hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #1f80aa;
+    /*margin: 1em 0;*/
+    padding: 0;
+    width: 40%;
+}
 .item-mobile {
   padding: 20px;
 }
@@ -339,7 +337,7 @@ a:hover, a:focus, a:active {
     }
     .fh5co-cover .fh5co-cover-text .full-height .fh5co-cover-intro {
       display: table-cell;
-      vertical-align: middle;
+      vertical-align: top;
       min-height: 800px;
     }
 }
@@ -414,8 +412,9 @@ a:hover, a:focus, a:active {
       font-size: 12px;
       padding: 0px 5px;
     }
-
-
+    .iso-section hr {
+          width: 40%;
+      }
     /*============================*/
     /*          TESTIMONIAL       */
     /*============================*/
