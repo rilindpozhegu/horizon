@@ -1,0 +1,201 @@
+/*===================*/
+/*		FONTS 		 */
+/*===================*/
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+
+
+
+
+
+ /*My Elements*/
+
+ /*========================*/
+
+
+
+ /*LandingPage Style*/
+ /*=================*/
+
+.landingpage-header {
+	padding-top: 100px;
+	background-image: url("../images/landingpage-bg-01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.landingpage-body {
+	text-align: center;
+}
+
+
+.text-under_logo {
+	color: white;
+	font-family: 'Montserrat-Regular';
+}
+
+.text-under_line {
+	color: white;
+	font-family: 'Montserrat-Regular';
+	padding-top: 10px;
+}
+
+.landingpage-horizontalline {
+	width: 60%;
+}
+
+#timer {
+	color: white;
+}
+
+.time-scetion h1 {
+	font-size: 80px;
+	font-family: "Montserrat-Bold";
+}
+.text-align-time h1 {
+	text-align: right;
+}
+.text-align-time h4 {
+	text-align: right;
+	font-size: 30px;
+}
+
+
+.sent-text {
+	color: white;
+	font-family: "Montserrat-Regular";
+}
+.sent-text-section {
+	padding: 30px 0px;
+}
+
+.sent-text-section input {
+	background: transparent;
+	border: solid 1px white;
+	height: 42px;
+	border-radius: 5px;
+	width: 40%;
+	color: white;
+	padding: 0px 10px;
+	/*font-family: "Montserrat-Regular";*/
+}
+
+.sent-text-section input:focus {
+	outline: none;
+}
+.sent-text-section input:active {
+	outline: none;
+}
+
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+/*Social Media Buttons on the right*/
+.social_media-buttons {
+	position: absolute;
+	top: 44%;
+	right: 3%;
+}
+.social_media-buttons button {
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.51);
+}
+.social_media-buttons button i {
+	font-size: 23px;
+}
+
+/*social media buttons on mobile*/
+
+.social_media-buttons-desktop button{
+	border-radius: 50px;
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+	text-align: center;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.51);
+}
+.social_media-buttons-desktop button i {	
+	font-size: 14px;
+}
+.social_media-buttons-desktop ul {
+	padding: 0px;
+}
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+  .padding-sm {
+  	padding: 2px;
+  }
+  .landingpage-header {
+  	padding-top: 30px;
+	background-image: url("../images/landingpage-bg-01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;	
+  }
+  .landingpage-body img {
+  	width: 240px;
+  }
+  .text-under_logo {
+  	font-size: 20px;
+  }
+  .text-under_line {
+  	font-size: 22px;
+  }
+  .time-scetion h1{
+  	font-size: 30px;
+  }
+  .time-scetion h4 {
+  	font-size: 15px;
+  	margin-bottom: 10px;
+  }
+  .sent-text-section {
+  	padding-top: 10px;
+  	padding-bottom: 5px;
+  }
+  .sent-text {
+  	font-size: 22px;
+  }
+  .sent-text-section input {
+  	width: 50%;
+  }
+}
