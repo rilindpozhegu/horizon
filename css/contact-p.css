@@ -27,9 +27,6 @@
   src: url('../fonts/Montserrat-Regular.otf');
  }
 
-.active{
-  color: #ea3f52 !important;
-}
 
 /*======================*/
 /*       My Style       */
@@ -47,12 +44,6 @@
 }
 
 
-
-
-
-
-
-
 /* Mpas*/
 .map-section {
   margin-bottom: -5px;
@@ -60,9 +51,6 @@
 .map-section iframe{
   margin-top: 90px;
 }
-
-
-
 
 /*Contact Form*/
 .contact-section {
@@ -72,4 +60,27 @@
 .footer-title {
   padding-left: 30px;
   text-align: left;
+}
+
+.maps iframe{
+    pointer-events: none;
+}
+
+
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .section2 img {
+      width: 250px;
+    }
 }

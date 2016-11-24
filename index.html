@@ -7,8 +7,8 @@
 	<title>Horizon Drone</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" /><!--Type the description here-->
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" /><!--TYPE THE KEYWORDS HERE-->
-	<meta name="author" content="Rilind.EmiratesGraphic.com" />
+	<meta name="keywords" content="best drones" /><!--TYPE THE KEYWORDS HERE-->
+	<meta name="author" content="Emiratesgraphic.com" />
 
 
   	<!-- Facebook and Twitter integration -->
@@ -38,6 +38,7 @@
 	<link rel="stylesheet" type="text/css" href="css/navigationbar.css"><!--Navigationbar on mobile-->
 	<link rel="stylesheet" type="text/css" href="css/contact.css"><!--Contact Style-->
 	<link rel="stylesheet" type="text/css" href="css/footer.css"><!--Footer-->
+	<link rel="stylesheet" type="text/css" href="css/hovereffect.css"><!--Hover Effect-->
 
 	<!-- Modernizr JS -->
 	<!-- <script src="js/modernizr-2.6.2.min.js"></script> -->
@@ -56,31 +57,40 @@
 	</head>
 	<body>
 
-
 	<!-- Sidebar Code Section  -->
 	<div class="desktop-d-n mobile-navigator">
-	    <nav>
-	        <ul class="cd-primary-nav">
-	            <li class="active"><a href="#">HOME</a></li>
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="#">SERVICES</a></li>
-				<!-- <li><a href="#portfolio">GALLERY</a></li> -->
-				<li><a href="#">TESTIMONIALS</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><a href="#">CONTACT</a></li>
-		        </ul>
+	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <div class="navbar-header page-scroll">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
+	            </div>
+
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse navbar-ex1-collapse">
+	                <ul class="nav navbar-nav">
+	                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+	                    <li class="hidden">
+	                        <a class="page-scroll" href="#page-top"></a>
+	                    </li>
+	                    <li class="#"><a href="#">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<!-- <li><a href="#services-id">SERVICES</a></li>
+						<li><a href="#galery-id">GALLERY</a></li>
+						<li><a href="#testimonials-id">TESTIMONIALS</a></li> -->
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
 	    </nav>
-
-	    
-	    <div class="cd-overlay-nav">
-	        <span></span>
-	    </div> <!-- cd-overlay-nav -->
-
-	    <div class="cd-overlay-content">
-	        <span></span>
-	    </div> <!-- cd-overlay-content -->
-
-	    <a href="#" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
 	</div> 
 	
 	<!-- NavigationBar -->
@@ -114,13 +124,13 @@
 					<div class="row">
 						<div class="col-md-12 col-xs-12 full-height">
 							<div class="fh5co-cover-intro">
-								<h1 class="cover-text-lead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s"><img src="images/horizon-logo-01-01.png"></h1>
+								<h1 class="cover-text-lead wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s"><img src="images/horizon-logo-01-01.png"></h1>
 								<div class="header-buttons">
 									<div class="col-md-6  wow fadeInUp headerbutton_rad1" data-wow-duration="1s" data-wow-delay=".3s">
-										<button>PHOTOGRAPHY & VIDEO</button>
+										<button class="hvr-radial-out">PHOTOGRAPHY & VIDEO</button>
 									</div>
 									<div class="col-md-6  wow fadeInUp headerbutton_rad2" data-wow-duration="1s" data-wow-delay=".3s">
-										<button>SURVEILLANCE</button>
+										<button class="hvr-radial-out">SURVEILLANCE</button>
 									</div>
 								</div>	
 								<!-- Social media Buttons on mobile -->
@@ -207,7 +217,7 @@
 
                                 <div class="my-gallery row">
 
-                                    <figure class="iso-box photoshop places branding col-md-4 col-xs-6">
+                                    <figure class="iso-box graphic branding col-md-4 col-xs-6">
                                         <a href="images/galery-image-01.png" itemprop="contentUrl" data-size="1024x1024">
                                             <img src="images/galery-image-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
@@ -507,7 +517,7 @@
 
 <!-- Contact Section HOME -->
 
-<section class="contact-section  wow slideInUp " data-wow-duration="1s" data-wow-delay="1s">
+<section class="contact-section">
 	<div class="container">
 		<div class="row">
 			<div class="footer-title">
@@ -516,17 +526,17 @@
 			</div>
 			<div class="col-md-2"></div>
 			<div class="col-md-8 input-forms">
-				<div class="col-md-6">
+				<div class="col-md-6 small-padding">
 					<input type="" name="" placeholder="Your Name">
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 small-padding">
 					<input type="" name="" placeholder="Your Email">
 				</div>
-				<div class="col-md-12">
+				<div class="col-md-12 small-padding">
 					<textarea rows="4" placeholder="Your Message"></textarea>
 				</div>
 				<div class="col-md-12">
-					<button>Submit</button>
+					<button class="hvr-icon-forward">Submit</button>
 				</div>
 			</div>
 			<div class="col-md-2"></div>
@@ -556,8 +566,8 @@
 
 	<!-- END page-->
 
-
-<a href="#0" class="cd-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- Go On top BTN -->
+<a href="#0" class="cd-top "><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -587,9 +597,5 @@
     <!-- Testimonial carocel -->
     <script type="text/javascript" src="js/owl.carousel.js"></script>
 
-    <script type="text/javascript">
-        
-
-    </script>
 	</body>
 </html>

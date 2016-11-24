@@ -34,6 +34,7 @@
 	<link rel="stylesheet" type="text/css" href="css/navigationbar.css"><!--Navigationbar on mobile-->
 	<link rel="stylesheet" type="text/css" href="css/contact.css"><!--Contact Style-->
 	<link rel="stylesheet" type="text/css" href="css/footer.css"><!--Footer-->
+	<link rel="stylesheet" type="text/css" href="css/hovereffect.css"><!--Hover Effect-->
 
 	<!-- Font Awesome -->
 	<script src="https://use.fontawesome.com/8af4718d5e.js"></script>
@@ -52,30 +53,39 @@
 
 	<!-- Sidebar Code Section  -->
 	<div class="desktop-d-n mobile-navigator">
-	    <nav>
-	        <ul class="cd-primary-nav">
-	            <li class="active"><a href="#">HOME</a></li>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">SERVICES</a></li>
-				<!-- <li><a href="#portfolio">GALLERY</a></li> -->
-				<li><a href="#">TESTIMONIALS</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><a href="#">CONTACT</a></li>
-		        </ul>
+	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: white;">
+	        <div class="container">
+	            <div class="navbar-header page-scroll">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar" style="background-color: blue;"></span>
+	                    <span class="icon-bar" style="background-color: blue;"></span>
+	                    <span class="icon-bar" style="background-color: blue;"></span>
+	                </button>
+	                <a class="navbar-brand" href="#index.html"><img src="images/logo-color-01.png"></a>
+	            </div>
+
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse navbar-ex1-collapse">
+	                <ul class="nav navbar-nav">
+	                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+	                    <li class="hidden">
+	                        <a class="page-scroll" href="#page-top"></a>
+	                    </li>
+	                    <li class="#"><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<!-- <li><a href="#services-id">SERVICES</a></li>
+						<li><a href="#galery-id">GALLERY</a></li>
+						<li><a href="#testimonials-id">TESTIMONIALS</a></li> -->
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
 	    </nav>
-
-	    
-	    <div class="cd-overlay-nav">
-	        <span></span>
-	    </div> <!-- cd-overlay-nav -->
-
-	    <div class="cd-overlay-content">
-	        <span></span>
-	    </div> <!-- cd-overlay-content -->
-
-	    <a href="#" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
 	</div> 
-	
 	<!-- NavigationBar -->
 	<div id="fh5co-page">
 		<nav class="fh5co-nav-style-1 navigationbar-bg-color-c" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
@@ -86,7 +96,7 @@
 				<div class="col-lg-9 col-md-9 col-sm-5 text-right fh5co-link-wrap">
 					<ul data-offcanvass="yes">
 						<li class="#"><a href="index.html">HOME</a></li>
-						<li><a class="#" href="">ABOUT</a></li>
+						<li><a class="#" href="about.html">ABOUT</a></li>
 						<li><a href="index.html#services-id">SERVICES</a></li>
 						<li><a href="index.html#galery-id">GALLERY</a></li>
 						<li><a href="index.html#testimonials-id">TESTIMONIALS</a></li>
@@ -101,7 +111,7 @@
 
 
 <!-- Header MAPS Section -->
-<div class="map-section">
+<div class="map-section embed-container maps">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57862.50116974266!2d55.01690266778479!3d24.98630565767438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f11fc0123088b%3A0xa29cf06092964c9!2s910+-+Dubai+-+United+Arab+Emirates!5e0!3m2!1sen!2s!4v1479835898919" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
@@ -115,17 +125,17 @@
 				<h3>Get in Touch With Us</h3>
 			</div>
 			<div class="col-md-8 input-forms">
-				<div class="col-md-6">
+				<div class="col-md-6 small-padding">
 					<input type="" name="" placeholder="Your Name">
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 small-padding">
 					<input type="" name="" placeholder="Your Email">
 				</div>
-				<div class="col-md-12">
+				<div class="col-md-12 small-padding">
 					<textarea rows="4" placeholder="Your Message"></textarea>
 				</div>
 				<div class="col-md-12">
-					<button>Submit</button>
+					<button class="hvr-icon-forward">Submit</button>
 				</div>
 			</div>
 		</div>
@@ -152,7 +162,11 @@
 	</div>
 </footer>
 
+
 	<!-- END page-->
+<!-- Go On top BTN -->
+<a href="#0" class="cd-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
 
 
 
@@ -172,7 +186,18 @@
 	<script type="text/javascript" src="js/velocity.min.js"></script>
 
 
+	<script type="text/javascript">
+			$('.maps').click(function () {
+		    $('.maps iframe').css("pointer-events", "auto");
+		});
 
+		$( ".maps" ).mouseleave(function() {
+		  $('.maps iframe').css("pointer-events", "none"); 
+		});
+	</script>
+
+	    <!-- Testimonial carocel + BTN UP -->
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
 	</body>
 
 </html>
