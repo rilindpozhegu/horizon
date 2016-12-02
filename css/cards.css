@@ -68,7 +68,7 @@ a:hover, a:focus, a:active {
 */
 
 .fh5co-cover-intro {
-  vertical-align: middle;
+  padding: 150px 0px;
 }
 
 .fh5co-cover {
@@ -112,7 +112,12 @@ a:hover, a:focus, a:active {
 .headerbutton_rad1 {
   text-align: center;
 }
-
+.headerbutton_rad1 button:active {
+  outline: none;
+}
+.headerbutton_rad1 button:focus {
+  outline: none;
+}
 .headerbutton_rad2 {
   text-align: left;
 }
@@ -212,7 +217,9 @@ a:hover, a:focus, a:active {
 .section2 img {
   width: 400px;
 }
-
+.section2 .hor-dron {
+  width: 500px;
+}
 
 .section2-icons {
   padding: 60px 10px; 
@@ -452,6 +459,9 @@ a:hover, a:focus, a:active {
     .section2 img {
       width: 250px;
     }
+    .section2 .hor-dron {
+        width: 270px;
+      }
     .section2-icons img {
       width: 50px;
     }
