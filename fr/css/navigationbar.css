@@ -1,0 +1,64 @@
+.navbar-fixed-top {
+  background-color:rgba(0, 0, 0, 0.8);
+  border-bottom: transparent;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 30px;
+  border: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle:active {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border:none;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: rgba(0, 0, 0, 0.58);
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.navbar-default .navbar-nav > li > p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.navbar-default .navbar-nav > li > p > a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > li > p > a:hover {
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  font-size: bold;
+  color: white;
+}
+
+.navbar-brand {
+  float: right;
+  padding-top: 20px;
+}
+.navbar-brand img {
+  float: right;
+  margin-right: 20px;
+  width: 70px;
+}

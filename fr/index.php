@@ -103,14 +103,15 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-5 text-right fh5co-link-wrap">
 					<ul data-offcanvass="yes">
-						<li class="active"><a href="#">HOME</a></li>
-						<li><a href="about.html">ABOUT</a></li>
+						<li class="active"><a href="#
+						">ACCUEIL</a></li>
+						<li><a href="about.html">À PROPOS DE NOUS</a></li>
 						<li><a href="#services-id">SERVICES</a></li>
-						<li><a href="#galery-id">GALLERY</a></li>
-						<li><a href="#testimonials-id">TESTIMONIALS</a></li>
+						<li><a href="#galery-id">GALERIE</a></li>
+						<li><a href="#testimonials-id">TÉMOIGNAGES</a></li>
 						<li><a href="blog.html">BLOG</a></li>
 						<li><a href="contact.html">CONTACT</a></li>
-						<li><a href="contact.html" class="language_link" style="margin: 0px 5px;">en</a>/<a href="contact.html" class="language_link" style="margin: 0px 5px;">fr</a></li>
+						<li><a href="../index.php" class="language_link" style="margin: 0px 5px;">en</a>/<a href="" class="language_link" style="margin: 0px 5px;">fr</a></li>
 					</ul>
 				</div> 
 
@@ -129,7 +130,7 @@
 								<h1 class="cover-text-lead wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s"><img src="images/horizon-logo-01-01.png"></h1>
 								<div class="header-buttons">
 									<div class="modalButton col-md-12  wow fadeInUp headerbutton_rad1" data-wow-duration="1s" data-wow-delay=".3s">
-										<button type="button" class="modalButton" data-toggle="modal" data-src="https://www.youtube.com/embed/bhbBJUlUMG4" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">WATCH VIDEO</button>
+										<button type="button" class="modalButton" data-toggle="modal" data-src="https://www.youtube.com/embed/bhbBJUlUMG4" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">REGARDER LA VIDÉO</button>
 									</div>
 								</div>	
 								<!-- Social media Buttons on mobile -->
@@ -156,8 +157,8 @@
 				<div class="row p-b">
 					<div class="col-md-12 text-center">
 						<img src="images/logo-color-01.png" class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-						<p  class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".8s">Welcome To Our Website</p>
-						<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".8s">Horizon Drone is a company specializing in the development of new technologies using drones for public and private use as well as in the field of realization of aerial shots through photos and videos.</p>
+						<p  class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".8s">Bienvenue sur notre site</p>
+						<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".8s">Horizon Drone est une société spécialisée dans le développement de nouvelles technologies en utilisant des drones à l’usage publique et privé ainsi que dans le domaine de la réalisation de photos et vidéos en prise de vue aérienne.</p>
 					</div>
 				</div>
 			</div>
@@ -178,16 +179,16 @@
 					</div>
 					<div class="wow fadeInUp col-md-6 col-xs-12 section2-icons" data-wow-duration="0.5s" data-wow-delay=".8s">
 						<img src="images/icon-home-1-01.png">
-						<h3>RESEARCH AND DEVELOPMENT</h3>
-						<p>We develop state-of-the-art drones to meet your needs. We take into account your expectations such as: the size of the drone, its power, its options etc. Starting from your departure needs, we propose a concept that we will develop and you will be able to have a follow-up of the progress.</p>
+						<h3>RECHERCHE ET DÉVELOPPEMENT</h3>
+						<p>Nous développons des drones à la pointe de la technologie pour qu’ils puissent correspondre à vos besoins. Nous prenons en compte vos attentes tels que : la taille du drone, sa puissance, ses options etc. En partant de vos besoins de départs, nous vous proposons un concept que nous développerons et il vous sera possible d’avoir un suivi de la progression.</p>
 					</div>
 					<div class="col-md-6 col-xs-12 text-center desktop-d-n">
 						<img src="images/2.png" class="fh5co-heading wow fadeInUp hor-dron" data-wow-duration="1s" data-wow-delay=".5s">
 					</div>
 					<div class="wow fadeInUp col-md-6 col-xs-12 section2-icons" data-wow-duration="0.5s" data-wow-delay=".8s">
 						<img src="images/icon-home-2-01.png">
-						<h3>PHOTOGRAPHY & VIDEO</h3>
-						<p>We specialize in making aerial shots but we are also able to take care of all your photo and video services. From the shooting of the media to the final editing, we listen to your needs and work to satisfy your desires. We adapt to your wishes for various requests such as: weddings, events, shooting of buildings, sports events or others. It is also possible to broadcast images of the drone live and if available on a giant screen.</p>
+						<h3>PHOTOGRAPHIE & VIDÉO</h3>
+						<p>Nous réalisons pour vous des photographies et des vidéos en prises de vues aériennes. Nous pouvons aussi nous occuper de la totalité des services photos et vidéos. Du tournage des médias jusqu’au montage final, nous écoutons vos besoins et travaillons pour satisfaire vos désirs. Nous nous adaptons à vos souhaits pour diverses requêtes telles que : mariages, manifestations, prise de vue de bâtiment, événements sportifs ou autres. Il est aussi possible de diffuser les images du drone en direct et si disponible sur un écran géant.</p>
 					</div>
 				</div>
 			</div>
@@ -207,14 +208,14 @@
                <!-- iso section -->
                <div class="iso-section">
 	               		<div class="col-md-12">
-	               			<h3>OUR GALERY</h3>
-	               			<h2>Get out of the classic formats of photography</h2>
-	               			<p>You can find here some samples of photos and videos that we have previously made for clients, thanks to our drones. Feel free to contact us through this site if you are interested in our video / photo services in aerial shot.</p>
+	               			<h3>NOTRE GALERIE</h3>
+	               			<h2>Sortez des formats classiques de la photographie</h2>
+	               			<p>Vous pouvez trouver ici des échantillons de photos et vidéos que nous avons réalisées pour des clients, grâce à nos drones. Vous pouvez nous contacter par le biais de ce site si vous êtes intéressés par nos services vidéos / photos en prise de vue aérienne.</p>
 	               			<hr>
 	                        <ul class="filter-wrapper clearfix" style="padding: 0px;">
-	                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+	                           <li><a href="#" data-filter="*" class="selected opc-main-bg">Toutes</a></li>
 	                           <li><a href="#" class="opc-main-bg" data-filter=".graphic">Photos</a></li>
-	                           <li><a href="#" class="opc-main-bg" data-filter=".places">Videos</a></li>
+	                           <li><a href="#" class="opc-main-bg" data-filter=".places">Vidéos</a></li>
 	                        </ul>
 	                    </div>	
                         <!-- iso box section -->
@@ -423,7 +424,7 @@
 <!-- Blog Section -->
 <section class="blog_section container mobile-d-n">
 	<div class="row">
-		<h3 class="blog_sectiontitle">LATEST BLOGS</h3>
+		<h3 class="blog_sectiontitle">DERNIERS BLOGS</h3>
 		<hr>
 		<div class="col-md-4 card blog-card wow fadeInLeft " data-wow-duration="0.5s" data-wow-delay=".5s">
 			<img src="images/blog-image-01.png">
@@ -544,22 +545,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="footer-title">
-				<h4 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">HURRY UP</h4>
-				<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Get in Touch With Us</h3>
+				<h4 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">DÉPÊCHEZ-VOUS</h4>
+				<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Prenez contact avec nous</h3>
 			</div>
 			<div class="col-md-2"></div>
 			<div class="col-md-8 input-forms">
 				<div class="col-md-6 small-padding">
-					<input type="" name="" placeholder="Your Name" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
+					<input type="" name="" placeholder="Votre Nom" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
 				</div>
 				<div class="col-md-6 small-padding">
-					<input type="" name="" placeholder="Your Email" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
+					<input type="" name="" placeholder="Votre Email" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
 				</div>
 				<div class="col-md-12 small-padding">
-					<textarea rows="4" placeholder="Your Message" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".7s"></textarea>
+					<textarea rows="4" placeholder="Votre Message" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".7s"></textarea>
 				</div>
 				<div class="col-md-12">
-					<button class="hvr-icon-forward  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">Submit</button>
+					<button class="hvr-icon-forward  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">Soumettre</button>
 				</div>
 			</div>
 			<div class="col-md-2"></div>

@@ -1,0 +1,86 @@
+/*
+* Developer: 
+** Rilind Pozhegu
+*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('../fonts/Montserrat-ExtraBold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url('../fonts/Montserrat-ExtraLight.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+/*======================*/
+/*       My Style       */
+/*======================*/
+
+
+/*Navigation Bar*/
+.navigationbar-bg-color-c {
+  background-color: white !important;
+  color: blue !important;
+}
+
+.navigationbar-bg-color-c a {
+  color: #1f80aa !important; 
+}
+
+
+/* Mpas*/
+.map-section {
+  margin-bottom: -5px;
+}
+.map-section iframe{
+  margin-top: 90px;
+}
+
+/*Contact Form*/
+.contact-section {
+  background-image: url('../images/contact-footer-bg3-01.png') !important; 
+  text-align: left !important;
+}
+.footer-title {
+  padding-left: 30px;
+  text-align: left;
+}
+
+.maps iframe{
+    pointer-events: none;
+}
+
+
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .section2 img {
+      width: 250px;
+    }
+}
