@@ -68,7 +68,9 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
+	                <div class="mobile-language-btn">
+						<a href="#" class="language_link active_btn" style="margin: 0px 5px;">EN</a>/<a href="fr/index.php" class="language_link" style="margin: 0px 5px;">FR</a>
+					</div>
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -84,8 +86,7 @@
 						<li><a href="#galery-id">GALLERY</a></li>
 						<li><a href="#testimonials-id">TESTIMONIALS</a></li> -->
 						<li><a href="blog.html">BLOG</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
-						<li><p><a href="contddact.html" class="language_link" style="margin: 0px 5px;">EddN</a>/<a href="fr/index.html" class="language_link" style="margin: 0px 5px;">FRsds</a></p></li>
+						<li><a href="contact.html">CONTACT</a></li>						
 	                </ul>
 	            </div>
 	            <!-- /.navbar-collapse -->
@@ -103,14 +104,14 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-5 text-right fh5co-link-wrap">
 					<ul data-offcanvass="yes">
-						<li class="active"><a href="#">HOME</a></li>
+						<li class="active"><a href="http://horizon-drone.com/">HOME</a></li>
 						<li><a href="about.html">ABOUT</a></li>
 						<li><a href="#services-id">SERVICES</a></li>
 						<li><a href="#galery-id">GALLERY</a></li>
 						<li><a href="#testimonials-id">TESTIMONIALS</a></li>
 						<li><a href="blog.html">BLOG</a></li>
 						<li><a href="contact.html">CONTACT</a></li>
-						<li><a href="#" class="language_link" style="margin: 0px 5px;">en</a>/<a href="fr/index.php" class="language_link" style="margin: 0px 5px;">fr</a></li>
+						<li><a href="#" class="language_link active_btn" style="margin: 0px 5px;">EN</a>/<a href="fr/index.php" class="language_link" style="margin: 0px 5px;">FR</a></li>
 					</ul>
 				</div> 
 
@@ -576,7 +577,7 @@
 <footer class="footer-section">
 	<div class="container">
 		<div class="col-md-6 copyright-section mobile-d-n">
-			<a href="www.emiratesgraphic.com" style="text-decoration: none; color: white;"><p>Copyright by Emirates Graphic</p></a>
+			<a href="http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copyright by Emirates Graphic</p></a>
 		</div>
 		<div class="col-md-6 social-section">
 			<i class="fa fa-facebook "></i>	
@@ -592,19 +593,16 @@
 <!-- Pop up Modal Video on the top of the website -->
 
 	<div class="modal fade" id="myModal">
-		<div class="modal-dialog">
+		<div class="modal-dialog modal-dialog-of-video">
 			<div class="modal-content">
-
-				<div class="modal-body">
-          
-          <div class="close-button">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          </div>
-          <div class="embed-responsive embed-responsive-16by9">
-					            <iframe class="embed-responsive-item" frameborder="0"></iframe>
-          </div>
+				<div class="modal-body">		          
+		            <div class="close-button">
+			  			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		            </div>
+		          	<div class="embed-responsive embed-responsive-16by9">
+					    <iframe class="embed-responsive-item" frameborder="0"></iframe>
+		        	</div>
 				</div>
-
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->

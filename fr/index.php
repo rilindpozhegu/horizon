@@ -68,7 +68,9 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
+	                <div class="mobile-language-btn">
+						<a href="../index.php" class="language_link" style="margin: 0px 5px;">EN</a>/<a href="" class="language_link active_btn" style="margin: 0px 5px;">FR</a>
+					</div>
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,14 +80,13 @@
 	                    <li class="hidden">
 	                        <a class="page-scroll" href="#page-top"></a>
 	                    </li>
-	                    <li class="#"><a href="#">HOME</a></li>
-						<li><a href="about.html">ABOUT</a></li>
+	                    <li class="http://horizon-drone.com/fr/index.php"><a href="#">ACCUEIL</a></li>
+						<li><a href="about.html">À PROPOS DE NOUS</a></li>
 						<!-- <li><a href="#services-id">SERVICES</a></li>
 						<li><a href="#galery-id">GALLERY</a></li>
 						<li><a href="#testimonials-id">TESTIMONIALS</a></li> -->
 						<li><a href="blog.html">BLOG</a></li>
 						<li><a href="contact.html">CONTACT</a></li>
-						<li><p><a href="contact.html" class="language_link" style="margin: 0px 5px;">EN</a>/<a href="contact.html" class="language_link" style="margin: 0px 5px;">FR</a></p></li>
 	                </ul>
 	            </div>
 	            <!-- /.navbar-collapse -->
@@ -103,15 +104,14 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-5 text-right fh5co-link-wrap">
 					<ul data-offcanvass="yes">
-						<li class="active"><a href="#
-						">ACCUEIL</a></li>
+						<li class="active"><a href="http://horizon-drone.com/fr/index.php">ACCUEIL</a></li>
 						<li><a href="about.html">À PROPOS DE NOUS</a></li>
 						<li><a href="#services-id">SERVICES</a></li>
 						<li><a href="#galery-id">GALERIE</a></li>
 						<li><a href="#testimonials-id">TÉMOIGNAGES</a></li>
 						<li><a href="blog.html">BLOG</a></li>
 						<li><a href="contact.html">CONTACT</a></li>
-						<li><a href="../index.php" class="language_link" style="margin: 0px 5px;">en</a>/<a href="" class="language_link" style="margin: 0px 5px;">fr</a></li>
+						<li><a href="../index.php" class="language_link" style="margin: 0px 5px;">EN</a>/<a href="" class="language_link active_btn" style="margin: 0px 5px;">FR</a></li>
 					</ul>
 				</div> 
 
@@ -577,7 +577,7 @@
 <footer class="footer-section">
 	<div class="container">
 		<div class="col-md-6 copyright-section mobile-d-n">
-			<a href="www.emiratesgraphic.com" style="text-decoration: none; color: white;"><p>Copyright by Emirates Graphic</p></a>
+			<a href="http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copyright by Emirates Graphic</p></a>
 		</div>
 		<div class="col-md-6 social-section">
 			<i class="fa fa-facebook "></i>	
@@ -587,6 +587,7 @@
 		</div>
 	</div>
 </footer>
+
 
 	<!-- END page-->
 

@@ -195,7 +195,9 @@ a:hover, a:focus, a:active {
       display: block;
       margin: 0 auto;
     }
-
+.modal-dialog-of-video {
+  width: 60%;
+}
 
 /*============================*/
 /*         SECTION 2          */
@@ -439,7 +441,9 @@ a:hover, a:focus, a:active {
       text-align: center;
       margin-top: 15px;
     }
-
+    .modal-dialog-of-video {
+      width: 95%;
+    }
     /*============================*/
     /*         SECTION 1          */
     /*============================*/

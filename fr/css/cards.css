@@ -196,7 +196,9 @@ a:hover, a:focus, a:active {
       margin: 0 auto;
     }
 
-
+.modal-dialog-of-video {
+      width: 60%;
+    }
 /*============================*/
 /*         SECTION 2          */
 /*============================*/
@@ -451,7 +453,9 @@ a:hover, a:focus, a:active {
       padding: 50px 0px; 
     }
 
-
+    .modal-dialog-of-video {
+      width: 95%;
+    }
     /*============================*/
     /*         SECTION 1          */
     /*============================*/

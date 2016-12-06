@@ -459,3 +459,24 @@
   margin: 0px;
   padding-top: 35px; 
 }
+
+
+/*Language buttons on mobile devices*/
+.mobile-language-btn {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.mobile-language-btn a {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  padding: 0px 7px;
+  font-family: "Montserrat-Regular";
+}
+
+.active_btn {
+  color: white !important;
+}
+
