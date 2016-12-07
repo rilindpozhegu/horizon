@@ -244,6 +244,12 @@ a:hover, a:focus, a:active {
 .iso-box img {
   width: 100%;
   margin: 10px 0px;
+    filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0%);
+  transition: all ease-in-out 0.4s;
+}
+.iso-box img:hover {  
+  -webkit-filter: grayscale(70%);
 }
 .iso-section h3 {
   text-align: center;
@@ -280,8 +286,13 @@ a:hover, a:focus, a:active {
   padding: 0px 20px;
 }
 
+.galery-video_player-btn {
+  padding: 0px;
 
-
+}
+.galery-video_player-btn:hover {
+  cursor: pointer;
+}
 
 /*=============================*/
 /*         TESTIMONIALS        */
@@ -480,7 +491,7 @@ a:hover, a:focus, a:active {
       /*position: relative;*/
       text-align: center;
       background-repeat: no-repeat;
-      height: 1200px;
+      height: 1300px;
     }
 
 

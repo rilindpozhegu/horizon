@@ -149,7 +149,7 @@ jQuery(document).ready(function($){
 
     $(document).ready(function() {
       $("#owl-demo").owlCarousel({
-        autoPlay: 4000,
+        autoPlay: 10000,
         items : 1,
         itemsDesktop : [1199,3],
         itemsDesktopSmall : [1199,3]
@@ -178,7 +178,7 @@ jQuery(document).ready(function($){
 
     $(document).ready(function() {
       $("#owl-demo2").owlCarousel({
-        autoPlay: 3000,
+        autoPlay: 7000,
         items : 1,
         itemsDesktop : [1199,3],
         itemsDesktopSmall : [1199,3]

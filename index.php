@@ -22,7 +22,7 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="images/logo-color-01.png">
 	
 	<!-- Google Fonts -->
 
@@ -172,18 +172,19 @@
 			<div class="container">
 				<div class="row p-b">
 					<div class="col-md-6 text-center">
-						<img src="images/drone-big-01.png" class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+						<img src="images/2.png" class="fh5co-heading wow fadeInUp hor-dron" data-wow-duration="1s" data-wow-delay=".5s">
 					</div>	
 					<div class="col-md-6 text-center mobile-d-n">
-						<img src="images/2.png" class="fh5co-heading wow fadeInUp hor-dron" data-wow-duration="1s" data-wow-delay=".5s">
+						<img src="images/drone-big-01.png" class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 					</div>
+					<div class="clearfix"></div>
 					<div class="wow fadeInUp col-md-6 col-xs-12 section2-icons" data-wow-duration="0.5s" data-wow-delay=".8s">
 						<img src="images/icon-home-1-01.png">
 						<h3>RESEARCH AND DEVELOPMENT</h3>
 						<p>We develop state-of-the-art drones to meet your needs. We take into account your expectations such as: the size of the drone, its power, its options etc. Starting from your departure needs, we propose a concept that we will develop and you will be able to have a follow-up of the progress.</p>
 					</div>
 					<div class="col-md-6 col-xs-12 text-center desktop-d-n">
-						<img src="images/2.png" class="fh5co-heading wow fadeInUp hor-dron" data-wow-duration="1s" data-wow-delay=".5s">
+						<img src="images/drone-big-01.png" class="fh5co-heading wow fadeInUp hor-dron" data-wow-duration="1s" data-wow-delay=".5s">
 					</div>
 					<div class="wow fadeInUp col-md-6 col-xs-12 section2-icons" data-wow-duration="0.5s" data-wow-delay=".8s">
 						<img src="images/icon-home-2-01.png">
@@ -215,7 +216,7 @@
 	                        <ul class="filter-wrapper clearfix" style="padding: 0px;">
 	                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
 	                           <li><a href="#" class="opc-main-bg" data-filter=".graphic">Photos</a></li>
-	                           <li><a href="#" class="opc-main-bg" data-filter=".places">Videos</a></li>
+	                           <li><a href="#" class="opc-main-bg" data-filter=".video">Videos</a></li>
 	                        </ul>
 	                    </div>	
                         <!-- iso box section -->
@@ -291,6 +292,11 @@
 
                                 </div>
 
+                                    <figure class="iso-box video col-md-3 col-xs-6">
+                                            <img src="images/SAM_1434 touch.JPG" itemprop="thumbnail" alt="Image description" data-toggle="modal" data-src="https://www.youtube.com/embed/WXVFNNhSk2U" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="" class="modalButton galery-video_player-btn" />
+                                        </a>
+
+                                    </figure>
                                 <!-- Root element of PhotoSwipe. Must have class pswp. -->
                                 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
@@ -318,13 +324,13 @@
 
                                                 <div class="pswp__counter"></div>
 
-                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
 
-                                                <button class="pswp__button pswp__button--share" title="Share"></button>
+                                                <button class="pswp__button pswp__button--share" title="Share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
 
-                                                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                                                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
 
-                                                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                                                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
 
                                                 <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
                                                 <!-- element will get class pswp__preloader--active when preloader is running -->
@@ -341,10 +347,10 @@
                                                 <div class="pswp__share-tooltip"></div>
                                             </div>
 
-                                            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                                            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><i class="fa fa-chevron-left" aria-hidden="true"></i>
                                             </button>
 
-                                            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                                            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><i class="fa fa-chevron-right" aria-hidden="true"></i>
                                             </button>
 
                                             <div class="pswp__caption">

@@ -22,7 +22,7 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="images/logo-color-01.png">
 	
 	<!-- Google Fonts -->
 
@@ -208,14 +208,14 @@
                <!-- iso section -->
                <div class="iso-section">
 	               		<div class="col-md-12">
-	               			<h3>NOTRE GALERIE</h3>
-	               			<h2>Sortez des formats classiques de la photographie</h2>
-	               			<p>Vous pouvez trouver ici des échantillons de photos et vidéos que nous avons réalisées pour des clients, grâce à nos drones. Vous pouvez nous contacter par le biais de ce site si vous êtes intéressés par nos services vidéos / photos en prise de vue aérienne.</p>
+	               			<h3>OUR GALERY</h3>
+	               			<h2>Get out of the classic formats of photography</h2>
+	               			<p>You can find here some samples of photos and videos that we have previously made for clients, thanks to our drones. Feel free to contact us through this site if you are interested in our video / photo services in aerial shot.</p>
 	               			<hr>
 	                        <ul class="filter-wrapper clearfix" style="padding: 0px;">
-	                           <li><a href="#" data-filter="*" class="selected opc-main-bg">Toutes</a></li>
+	                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
 	                           <li><a href="#" class="opc-main-bg" data-filter=".graphic">Photos</a></li>
-	                           <li><a href="#" class="opc-main-bg" data-filter=".places">Vidéos</a></li>
+	                           <li><a href="#" class="opc-main-bg" data-filter=".video">Videos</a></li>
 	                        </ul>
 	                    </div>	
                         <!-- iso box section -->
@@ -291,6 +291,11 @@
 
                                 </div>
 
+                                    <figure class="iso-box video col-md-3 col-xs-6">
+                                            <img src="images/SAM_1434 touch.JPG" itemprop="thumbnail" alt="Image description" data-toggle="modal" data-src="https://www.youtube.com/embed/WXVFNNhSk2U" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="" class="modalButton galery-video_player-btn" />
+                                        </a>
+
+                                    </figure>
                                 <!-- Root element of PhotoSwipe. Must have class pswp. -->
                                 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
@@ -318,13 +323,13 @@
 
                                                 <div class="pswp__counter"></div>
 
-                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
 
-                                                <button class="pswp__button pswp__button--share" title="Share"></button>
+                                                <button class="pswp__button pswp__button--share" title="Share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
 
-                                                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                                                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
 
-                                                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                                                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
 
                                                 <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
                                                 <!-- element will get class pswp__preloader--active when preloader is running -->
@@ -341,10 +346,10 @@
                                                 <div class="pswp__share-tooltip"></div>
                                             </div>
 
-                                            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                                            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><i class="fa fa-chevron-left" aria-hidden="true"></i>
                                             </button>
 
-                                            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                                            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><i class="fa fa-chevron-right" aria-hidden="true"></i>
                                             </button>
 
                                             <div class="pswp__caption">
@@ -364,6 +369,7 @@
       </div>
    </div>
 </section>
+
 
 
 <div class="clearfix"  id="testimonials-id"></div>

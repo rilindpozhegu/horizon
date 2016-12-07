@@ -69,13 +69,19 @@
 
 .pswp__button--close {
   background-position: 0 -44px; }
-
+.pswp__button--close i {
+  color: white;
+}
 .pswp__button--share {
   background-position: -44px -44px; }
-
+.pswp__button--share i {
+  color: white;
+}
 .pswp__button--fs {
   display: none; }
-
+.pswp__button--fs i {
+  color: white;
+}
 .pswp--supports-fs .pswp__button--fs {
   display: block; }
 
@@ -91,7 +97,9 @@
 
 .pswp--zoomed-in .pswp__button--zoom {
   background-position: -132px 0; }
-
+.pswp__button--zoom i {
+  color: white;
+}
 /* no arrows on touch screens */
 .pswp--touch .pswp__button--arrow--left,
 .pswp--touch .pswp__button--arrow--right {
@@ -112,10 +120,16 @@
 
 .pswp__button--arrow--left {
   left: 0; }
-
+.pswp__button--arrow--left i {
+  color: white;
+  font-size: 20px;
+}
 .pswp__button--arrow--right {
   right: 0; }
-
+.pswp__button--arrow--right i {
+  color: white;
+  font-size: 20px;
+}
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
   content: '';
