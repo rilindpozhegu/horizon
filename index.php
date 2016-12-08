@@ -100,7 +100,7 @@
 		<nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
 			<div class="container">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fh5co-logo mobile-d-n">
-					<a href="index.html"><img src="images/horizon-logo-01.png"></a>
+					<a href="http://horizon-drone.com/"><img src="images/horizon-logo-01.png"></a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-5 text-right fh5co-link-wrap">
 					<ul data-offcanvass="yes">
@@ -275,8 +275,8 @@
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-3 col-xs-6">
-                                        <a href="images/SAM_1959.JPG" itemprop="contentUrl" data-size="4178x2786">
-                                            <img src="images/SAM_1959.JPG" itemprop="thumbnail" alt="Image description" />
+                                        <a href="images/Rtch_0458.jpg" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/Rtch_0458.jpg" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -290,10 +290,66 @@
 
                                     </figure>
 
+                                    <figure class="iso-box graphic branding col-md-3 col-xs-6">
+                                        <a href="images/0000239.jpg" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/0000239.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-3 col-xs-6">
+                                        <a href="images/SAM_0285.JPG" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/SAM_0285.JPG" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-3 col-xs-6">
+                                        <a href="images/SAM_0291.JPG" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/SAM_0291.JPG" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-3 col-xs-6">
+                                        <a href="images/SAM_1310.JPG" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/SAM_1310.JPG" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-3 col-xs-6">
+                                        <a href="images/SAM_1415 touch.JPG" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/SAM_1415 touch.JPG" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-3 col-xs-6">
+                                        <a href="images/SAM_1651 touch.JPG" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/SAM_1651 touch.JPG" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-3 col-xs-6">
+                                        <a href="images/SAM_2498.jpg" itemprop="contentUrl" data-size="4178x2786">
+                                            <img src="images/SAM_2498.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
                                 </div>
 
                                     <figure class="iso-box video col-md-3 col-xs-6">
-                                            <img src="images/SAM_1434 touch.JPG" itemprop="thumbnail" alt="Image description" data-toggle="modal" data-src="https://www.youtube.com/embed/WXVFNNhSk2U" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="" class="modalButton galery-video_player-btn" />
+                                            <img src="images/SAM_1959.JPG" itemprop="thumbnail" alt="Image description" data-toggle="modal" data-src="https://www.youtube.com/embed/WXVFNNhSk2U" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="" class="modalButton galery-video_player-btn" />
                                         </a>
 
                                     </figure>
