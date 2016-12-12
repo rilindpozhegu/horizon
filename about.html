@@ -187,20 +187,22 @@
 				<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Get in Touch With Us</h3>
 			</div>
 			<div class="col-md-2"></div>
-			<div class="col-md-8 input-forms">
-				<div class="col-md-6 small-padding">
-					<input type="" name="" placeholder="Your Name" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
+			<form id="mailForm">
+				<div class="col-md-8 input-forms">
+					<div class="col-md-6 small-padding">
+						<input type="" name="name" placeholder="Your Name" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
+					</div>
+					<div class="col-md-6 small-padding">
+						<input type="" name="email" placeholder="Your Email" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
+					</div>
+					<div class="col-md-12 small-padding">
+						<textarea rows="4" name="message" placeholder="Your Message" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".7s"></textarea>
+					</div>
+					<div class="col-md-12">
+						<button class="hvr-icon-forward  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">Submit</button>
+					</div>
 				</div>
-				<div class="col-md-6 small-padding">
-					<input type="" name="" placeholder="Your Email" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
-				</div>
-				<div class="col-md-12 small-padding">
-					<textarea rows="4" placeholder="Your Message" class="wow zoomIn" data-wow-duration=".5s" data-wow-delay=".7s"></textarea>
-				</div>
-				<div class="col-md-12">
-					<button class="hvr-icon-forward  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">Submit</button>
-				</div>
-			</div>
+			</form>
 			<div class="col-md-2"></div>
 		</div>
 	</div>
@@ -215,7 +217,7 @@
 <footer class="footer-section">
 	<div class="container">
 		<div class="col-md-6 copyright-section mobile-d-n">
-			<a href=http://emiratesgraphic.com/" style="text-decoration: none; color: white;"><p>Copyright by Emirates Graphic</p></a>
+			<a href=http://emiratesgraphic.com/" style="text-decoration: none; color: white;><p>Copyright by Emirates Graphic</p></a>
 		</div>
 		<div class="col-md-6 social-section">
 			<i class="fa fa-facebook "></i>	
@@ -231,9 +233,35 @@
 <!-- Go On top BTN -->
 <a href="#0" class="cd-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 
+	<script src="js/jquery.min.js"></script>
+<script src="js/notify.js"></script>
+
+<script type="text/javascript">
+	console.log("dsadsa");
+    $("#mailForm").submit(function(e) {
+
+    
+            var url = "mailer.php"; // the script where you handle the form input
+
+
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: $("#mailForm").serialize(), // serializes the form's elements.  
+                   complete: function(data){
+                        $.notify(data.responseText	, "success");
+                    }
+
+                 });
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
+
+</script>
+
 
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
 
